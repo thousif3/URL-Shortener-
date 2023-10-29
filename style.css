@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.background-modifier {
+    background-color: blue;
+    background-image: url('https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.webp?b=1&s=170667a&w=0&k=20&c=0eyjD9xiGItjC1Yklk_q3Ry1Jr0zWAUJ6q8kDmBuyvk=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+   
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0ef;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="url"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shortenedLinkContainer {
+    display: none;
+    margin-top: 20px;
+}
+
+#shortenedLinkContainer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#shortenedLink {
+    font-size: 16px;
+    word-break: break-all;
+    text-decoration: none;
+}
